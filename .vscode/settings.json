@@ -1,0 +1,30 @@
+{
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "editor.formatOnSave": true,
+    "[sql]": {
+        "editor.formatOnSave": false
+    },
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=88"
+    ],
+    "editor.tabCompletion": "on",
+    "jupyter.sendSelectionToInteractiveWindow": true,
+    "python.formatting.provider": "black",
+    "workbench.colorTheme": "Default Dark+",
+    "python.linting.enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.terminal.executeInFileDir": true,
+    "python.analysis.extraPaths": [
+        "./workspace-analysts/plugins",
+        "./workspace-analysts/dags",
+        "./base_plugins"
+    ]
+}
